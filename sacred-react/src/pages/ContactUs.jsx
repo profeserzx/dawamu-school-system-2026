@@ -81,15 +81,15 @@ function ContactUs() {
           <h2>Contact Information</h2>
           <div className="info-item">
             <FaPhone className="info-icon" />
-            <p>+123 456 789</p>
+            <p>+254 722 450 173</p>
           </div>
           <div className="info-item">
             <FaEnvelope className="info-icon" />
-            <p>support@schoolmanagement.com</p>
+            <p>virginia@dawamu.ac.ke</p>
           </div>
           <div className="info-item">
             <FaMapMarkerAlt className="info-icon" />
-            <p>123 School Road, City, Country</p>
+            <p>Pipeline Road, Kiserian / Kiserian-Isinya Pipeline Road</p>
           </div>
         </div>
       </div>

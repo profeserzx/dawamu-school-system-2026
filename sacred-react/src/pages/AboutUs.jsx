@@ -32,10 +32,7 @@ function AboutUs() {
             <h2>Our Story</h2>
           </div>
           <p>
-            Established in 1995, our school has been a cornerstone of academic excellence and community growth. 
-            From humble beginnings, we have grown into a thriving institution that nurtures young minds and prepares 
-            them for the challenges of tomorrow. Our journey is one of dedication, innovation, and a commitment to 
-            shaping future leaders.
+          Dawamu School was founded with a simple but powerful vision: to transform boys into leaders who will shape the future of Kenya and beyond. Established along Pipeline Road in Kiserian-Isinya, our journey began with a small group of dedicated educators who believed that leadership in men is the backbone of all societies.
           </p>
         </section>
 
@@ -46,9 +43,7 @@ function AboutUs() {
             <h2>Our Mission</h2>
           </div>
           <p>
-            Our mission is to provide a holistic education that fosters intellectual, emotional, and social growth. 
-            We aim to inspire students to become lifelong learners, critical thinkers, and responsible global citizens. 
-            Through a supportive and inclusive environment, we empower every child to achieve their fullest potential.
+          To provide a holistic education that fosters intellectual, emotional, and social growth. We aim to inspire students to become lifelong learners, critical thinkers, and responsible global citizens. Through a supportive and inclusive environment, we empower every boy to achieve their fullest potential.To transform boys into confident leaders through holistic education, character development, and real-world skills
           </p>
         </section>
 
@@ -59,9 +54,7 @@ function AboutUs() {
             <h2>Our Vision</h2>
           </div>
           <p>
-            We envision a world where every student is equipped with the knowledge, skills, and values to make a positive 
-            impact. Our school strives to be a beacon of innovation and excellence, shaping leaders who will drive change 
-            and create a better future for all.
+          To transform Boys into leaders. Dawamu strives to stir up a desire in each student to achieve more than they can imagine, at the same time creating a sense of responsibility to themselves and society crucial for leaders of the next generation.To be the leading institution shaping disciplined, innovative, and responsible young men who excel in all areas of life.
           </p>
         </section>
       </div>
@@ -75,7 +68,7 @@ function AboutUs() {
 
       {/* Footer Section */}
       <div className="about-us-footer">
-        <p>Thank you for choosing our school. We are excited to have you on this journey!</p>
+        <p>You've joined the pride of Dawamu. Together, we build leaders who shape tomorrow.</p>
       </div>
     </div>
     </>

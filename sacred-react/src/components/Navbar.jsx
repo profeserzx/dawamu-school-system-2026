@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import axios from "axios";
 import { FaHome, FaInfoCircle, FaBook, FaNewspaper, FaEnvelope, FaSignInAlt, FaSignOutAlt, FaBars, FaTimes, FaUser } from "react-icons/fa";
 import { Loader } from "lucide-react";
-import Logo from "../images/logo.jpg";
+import Logo from "../images/logo.png";
 import "../style/comp_css/navbar.css";
 
 const Navbar = () => {

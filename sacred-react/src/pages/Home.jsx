@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useEffect } from 'react';
 import '../style/pages_css/home.css'; // Import CSS file
 import AOS from 'aos';
@@ -41,7 +42,7 @@ function Home() {
         />
         <div className="hero-overlay"></div>
         <div className="hero-text">
-          <h1>Welcome to Sacred Heart Academy</h1>
+          <h1>Welcome to Dawamu Academy</h1>
           <p>Where learning meets excellence</p>
         </div>
       </div>
@@ -54,8 +55,8 @@ function Home() {
           <div className="overview-grid">
             <div className="overview-text">
               <p>
-                Sacred Heart Academy is a place where academic excellence meets holistic development. 
-                We provide quality education and an environment that nurtures the overall growth of students.
+              Dawamu School is a place where academic excellence meets leadership development. We provide quality education and an environment that nurtures the overall growth of young men into confident, responsible leaders.
+
               </p>
               <p>
                 Our focus is on providing a balanced curriculum that promotes both intellectual and emotional development. 
@@ -91,16 +92,14 @@ function Home() {
             <Target className="section-icon" />
             <h3>Our Mission</h3>
             <p>
-              To provide a transformative education that fosters critical thinking, creativity, and compassion, 
-              preparing students to face the challenges of the future with confidence.
+            To provide a holistic education that fosters intellectual, emotional, and social growth. We aim to inspire students to become lifelong learners, critical thinkers, and responsible global citizens. Through a supportive and inclusive environment, we empower every boy to achieve their fullest potential.
             </p>
           </div>
           <div className="vision" data-aos="fade-left">
             <Trophy className="section-icon" />
             <h3>Our Vision</h3>
             <p>
-              To be a leading institution in providing a well-rounded education that empowers students 
-              to succeed in their academic and personal lives.
+            To transform Boys into leaders. Dawamu strives to stir up a desire in each student to achieve more than they can imagine, at the same time creating a sense of responsibility to themselves and society — crucial for leaders of the next generation.
             </p>
           </div>
         </div>
@@ -109,7 +108,7 @@ function Home() {
       {/* Facilities Section */}
       <div className="facilities" data-aos="fade-up">
         <div className="section-header">
-          <span className="section-tag">Campus Life</span>
+          <span className="section-tag">High School Life</span>
           <h2>Our Facilities</h2>
         </div>
         <div className="facilities-grid">
@@ -144,11 +143,11 @@ function Home() {
       {/* Gallery Section */}
       <div className="gallery-section" data-aos="fade-up">
         <div className="section-header">
-          <span className="section-tag">Campus Life</span>
+          <span className="section-tag">High School Life</span>
           <h2>Our Gallery</h2>
         </div>
         <div className="gallery">
-          <img src={img1} alt="Campus Life" className="gallery-item" data-aos="zoom-in" />
+          <img src={img1} alt="High School Life" className="gallery-item" data-aos="zoom-in" />
           <img src={img2} alt="Students" className="gallery-item" data-aos="zoom-in" data-aos-delay="100" />
           <img src={img3} alt="Library" className="gallery-item" data-aos="zoom-in" data-aos-delay="200" />
           <img src={img5} alt="Sports" className="gallery-item" data-aos="zoom-in" data-aos-delay="300" />
@@ -161,7 +160,7 @@ function Home() {
         <div className="cta-content">
           <h2>Ready to Join Our Community?</h2>
           <p>Take the first step towards an exceptional education journey</p>
-          <button className="cta-button">Apply Now</button>
+          <Link to="/contact" className="cta-button">Apply Now</Link>
         </div>
       </div>
     </div>

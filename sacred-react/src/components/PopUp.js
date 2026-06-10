@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
-import '../style/comp_css/popup.css'; // Import CSS file for styling
+import { useNavigate } from 'react-router-dom';
+import '../style/comp_css/popup.css';
 import BackgroundImage from '../images/img3.jpg';
 
 function PopUp() {
   const [isVisible, setIsVisible] = useState(false);
   const popupRef = useRef(null);
+  const navigate = useNavigate();
 
-  // Show the popup after 2 seconds when the component mounts
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
@@ -15,7 +16,6 @@ function PopUp() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Close the popup when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (popupRef.current && !popupRef.current.contains(event.target)) {
@@ -32,9 +32,13 @@ function PopUp() {
     };
   }, [isVisible]);
 
-  // Close the popup
   const handleClose = () => {
     setIsVisible(false);
+  };
+
+  const handleApplyNow = () => {
+    setIsVisible(false);
+    navigate('/contact');
   };
 
   if (!isVisible) return null;
@@ -54,8 +58,8 @@ function PopUp() {
           &times;
         </button>
         <h2 id="popup-title">Admissions Open!</h2>
-        <p>Enroll now for the academic year 2024-2025. Limited seats available!</p>
-        <button className="cta-button" onClick={handleClose}>
+        <p>Enroll now for the academic year 2026-2027. Limited seats available!</p>
+        <button className="cta-button" onClick={handleApplyNow}>
           Apply Now
         </button>
       </div>

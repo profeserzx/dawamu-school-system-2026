@@ -32,11 +32,11 @@ export default function Footer() {
           <ul>
             <li>
               <FaEnvelope className="footer-icon" />
-              <a href="mailto:info@sacredheartacademy.com">info@sacredheartacademy.com</a>
+              <a href="virginia@dawamu.ac.ke">virginia@dawamu.ac.ke</a>
             </li>
             <li>
               <FaPhone className="footer-icon" />
-              <a href="tel:+1234567890">+1 (234) 567-890</a>
+              <a href="tel:+254 722 450 173">+254 722 450 173</a>
             </li>
           </ul>
         </div>
@@ -45,16 +45,16 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="hhttps://www.facebook.com/DawamuSchool/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaFacebook />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://x.com/dawamuschool" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaTwitter />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.instagram.com/dawamu_school/profilecard/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaInstagram />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/dawamu-school/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
             </a>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>&copy; 2023 Sacred Heart Academy. All rights reserved.</p>
+        <p>&copy; 2026 Dawamu Academy. All rights reserved.</p>
       </div>
     </footer>
   );
